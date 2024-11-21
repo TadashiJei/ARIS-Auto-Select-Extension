@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARIS Evaluation Assistant</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    select, button {
+      width: 100%;
+      margin-top: 5px;
+      padding: 5px;
+    }
+    #status {
+      margin-top: 10px;
+      font-style: italic;
+    }
+    .note {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>ARIS Evaluation Assistant</h1>
+  <label for="defaultRating">Default Rating:</label>
+  <select id="defaultRating">
+    <option value="6">6 - Exceptional</option>
+    <option value="5">5 - Excellent</option>
+    <option value="4">4 - Very Good</option>
+    <option value="3">3 - Good</option>
+    <option value="2">2 - Fair</option>
+    <option value="1">1 - Poor</option>
+  </select>
+  <button id="applyRating">Apply Rating</button>
+  <button id="randomize">Randomize Ratings</button>
+  <div id="status"></div>
+  <p class="note">Made with ❤️ (and frustration) by Tadashi Jei<br>For professors who don't teach, but still need evaluation.</p>
+  <script src="popup.js"></script>
+</body>
+</html>
