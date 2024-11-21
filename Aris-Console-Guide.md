@@ -65,9 +65,16 @@ ARISEval.autoFill('positive')
 
 // Negatively skewed ratings
 ARISEval.autoFill('negative')
-```
 
-### 4. Diagnostic Tool
+// Initiate the ultimate poor evaluation
+ARISEval.ultimatePoorEval()
+```
+### 4. Nuclear Sequence 
+```javascript
+// Initiate the nuclear launch sequence
+ARISEval.nuclearOption()
+```
+### 5. Diagnostic Tool
 ```javascript
 // Check form state and unselected dropdowns
 ARISEval.diagnose()
