@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "ARIS Evaluation Auto-Select",
+  "version": "1.0",
+  "description": "Automatically selects the first option in dropdown menus for ARIS evaluation forms",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://webqc2.tip.edu.ph/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
+
+console.log("Manifest file created successfully.");
